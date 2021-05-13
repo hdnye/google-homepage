@@ -4,54 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Homepage</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
-    <title>Google Homepage</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">    
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='index.css'>   
 </head>
 <body>
-  <nav>
-        <a class='left-nav' href='#'>About</a>
-        <a class='left-nav' href='#'>Store</a>
-        <a class='right-nav' href='#'>Gmail</a>
-        <a class='right-nav' href='#'>Images</a>
-        <a class='right-nav' href='#'>Logo</a>
-
-    </nav> 
-  
-    <div id='logo'><img src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png' alt='google logo'>
-    </div>
-    
-    <form id='form'>
-        <div class='form-div'>
-            <div id='search-div'>
-                <label for='search'></label>
-                <input type='search' id='search'>     
-            </div> 
-            <div id='search-icon'>
-                <span class='material-icons'>search</span>  
-            </div>  
-            <div>
-                <span class='material-icons'>mic</span>
-            </div>  
+    <div class='body-div'>
+        <div class='left-nav'>
+          <a class='left-nav-link' href='#'>About</a>
+          <a class='left-nav' href='#'>Store</a>
+        </div>
+        
+        <div class='right-nav'>
+            <a class='right-nav' href='#'>Gmail</a>
+            <a class='right-nav' href='#'>Images</a>
+            <a class='right-nav' href='#'>Logo</a>
         </div> 
-    </form>
+  
+    <div id='logo'>
+        <img src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png' alt='google logo'>
+    </div>
 
-    <div> 
+    <form id='form'> 
+        <div class='form-div'>
+            <div class='search-container'>                   
+                <div id='search-icon'>
+                    <span class='material-icons'>search</span>  
+                </div> 
+                <div id='search-div'>
+                    <label for='search'></label>
+                    <input type='search' id='search'>     
+                </div>             
+                <div id='mic-icon'>
+                    <span class='material-icons'>mic</span>
+                </div> 
+            </div>                 
+                <button class='button'>Google Search</button>
+                <button class='button-two'>I'm Feeling Lucky</button>            
+        </div>
+    </form> 
+    
+    <div class='mid-spot-promo'>
+        <a href='https://www.google.com/url?q=https://artsandculture.google.com/project/aapi-cultures%3Futm_source%3Dgoogle%26utm_medium%3Dhppromo%26utm_campaign%3DAPAHM&source=hpp&id=19024319&ct=3&usg=AFQjCNFjV9tF6T2JWBu8JWAskCKYpHRaWg&sa=X&ved=0ahUKEwjKrZrcqsXwAhXGmq0KHRhBBFMQ8IcBCBA'>Celebrate Asian Pacific American Heritage MOnth: Explore cultural artifacts and more</a>
+    </div>
+
+    <div class='bot-left'> 
         <a class='bot-left' href='#'>Advertising</a>
         <a class='bot-left' href='#'>Business</a>
         <a class='bot-left' href='#'>How Search Works</a>
     </div>
 
-    <div>
+    <div class='bot-mid'>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC" class="Pb9hCb" alt="single green leaf" data-atf="1">
        <a class='bot-mid'href='#'>Carbon neutral since 2007</a>
     </div>
 
-    <div>
+    <div class='bot-right'>
         <a class='bot-right' href='#'>Privacy</a>
         <a class='bot-right' href='#'>Terms</a>
         <a class='bot-right' href='#'>Settings</a>
     </div>
     
+    </div>
 </body>
 </html>

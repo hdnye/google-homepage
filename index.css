@@ -50,3 +50,7 @@ table {
 #logo {
     text-align: center;
 }
+
+a {
+    font-family: 'Barlow', sans-serif;
+}
