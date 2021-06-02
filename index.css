@@ -54,3 +54,113 @@ table {
 a {
     font-family: 'Barlow', sans-serif;
 }
+
+body {
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(211, 207, 201);
+}
+
+.body-div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.top-bar-container {
+	display: flex;
+	padding: 6px;
+	align-items: center;
+	height: 60px;
+	flex-shrink: 0;
+	box-sizing: border-box;
+}
+
+.left-nav {
+	margin-left: 15px;
+	display: inline-block;
+	padding: 5px;
+	margin: 0 5px;
+}
+
+.mid-top-container {
+	display: inline-block;
+	position: relative;
+	min-width: auto;
+	flex-grow: 1;
+}
+
+.right-nav {
+	display: flex;
+	float: right;
+	padding: 0 4px;
+	padding-left: 32px;	
+
+}
+
+#logo {
+
+}
+
+#form {
+
+}
+
+.form-div {
+
+}
+
+.search-container {
+
+}
+
+#search-icon {
+
+}
+
+#search-bar {
+
+}
+
+#mic-icon {
+
+}
+
+.buttons-div {
+
+}
+
+.button {
+
+}
+
+.mid-spot-promo {
+
+}
+
+.bottom-bar-container {
+
+}
+
+.bot-bar {
+
+}
+
+.bot-left {
+
+}
+
+.bot-mid {
+
+}
+
+.bot-right {
+
+}
