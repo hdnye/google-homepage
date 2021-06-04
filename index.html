@@ -8,7 +8,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">    
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='index.css'>   
 </head>
 <body>
@@ -16,7 +17,7 @@
         <div class='top-bar-container'>
             <div class='left-nav'>
                 <a class='left-nav-link' href='#'>About</a>
-                <a class='left-nav-link' href='#'>Store</a>
+                <a class='left-nav-link-two' href='#'>Store</a>
             </div>
         <div class='mid-top-container'>
             <div class='right-nav'>
@@ -33,18 +34,20 @@
 
     <form id='form'> 
         <div class='form-div'>
-            <div class='search-container'>                   
-                <div id='search-icon'>
-                    <span class='material-icons'>search</span>  
+            <div class='search-container'>
+                <div class='search-div'>                   
+                    <div id='search-icon'>
+                        <span class='material-icons'>search</span>  
+                    </div> 
+                    <div id='search-bar'>
+                        <label for='search'></label>
+                        <input type='search' id='search'>     
+                    </div>             
+                    <div id='mic-icon'>
+                        <span class='material-icons'>mic</span>
+                    </div> 
+                    </div>
                 </div> 
-                <div id='search-bar'>
-                    <label for='search'></label>
-                    <input type='search' id='search'>     
-                </div>             
-                <div id='mic-icon'>
-                    <span class='material-icons'>mic</span>
-                </div> 
-            </div> 
             <div class='buttons-div'>                
                 <button class='button'>Google Search</button>
                 <button class='button-two'>I'm Feeling Lucky</button>   
