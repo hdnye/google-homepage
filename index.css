@@ -51,24 +51,31 @@ table {
     text-align: center;
 }
 
-a body{
-    font-family: 'Roboto', sans-serif;
+body, html {
+	height: 100%;
 }
-
 body {
     background-image: initial;
-    background-color: rgb(24, 26, 27);
-    height: 100%;
+    /* background-color: rgb(24, 26, 27); */
+    /* height: 100%; */
     margin: 0;
     padding: 0;
 	font-size: 14px;
-}
+	font-family: 'Roboto', Arial, sans-serif;	
 
+}
+.sizing {
+	flex-shrink: 0;
+	box-sizing: border-box;
+}
 a {
 	text-decoration: none;
-	color: rgb(211, 207, 201);
+	/* color: rgb(211, 207, 201); */
+	color: white;
 }
-
+a.link {
+	color: dodgerblue;
+}
 .body-div {
     display: flex;
     flex-direction: column;
@@ -104,19 +111,27 @@ a {
 .right-nav {
 	display: flex;
 	float: right;
+	align-items: center;
 	padding: 0 4px;
-	/* padding-left: 32px;	 */
+	padding-left: 32px;	
 	margin-right: 4px;
 }
-
+.mid-box {
+	position: relative;
+	top: 20%;
+	bottom: 50%;
+}
 #logo {
-
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: calc(100% - 560px);	
+	position: relative;
 }
 
 #form {
 	display: block;
 	margin-top: 0em;
-
 }
 
 .form-div {
@@ -126,15 +141,13 @@ a {
 
 .search-container {
 	width: auto;
-	max-width: 584px;
 	position: relative;
 	margin: 0 auto;
 	padding-top: 6px;
 }
 .search-div {
-	width: auto;
-	max-width: 584px;
-	background: black;
+	width: 600px;
+	min-width: fit-content;
 	display: flex;
 	border-radius: 24px;
 	border: 1px solid rgb(56, 61, 63);
@@ -157,6 +170,7 @@ a {
 	flex-wrap: wrap;
 	word-wrap: break-word;
 	margin-bottom: 5px;
+	border: none;
 }
 input#search {
 	width: 100%;
@@ -185,23 +199,38 @@ input#search {
 .mid-spot-promo {
 
 }
-
+footer {
+	margin: auto;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	background:rgb(56, 61, 63);
+	height: 3rem;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
 .bottom-bar-container {
-
+	width: 100%;
 }
 
 .bot-bar {
-
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .bot-left {
-
+	padding-left: 10px;
 }
 
 .bot-mid {
-
+	display: flex;
+	align-items: center;
+	padding: 2px;
 }
 
 .bot-right {
-
+	padding-right: 10px;
 }
