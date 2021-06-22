@@ -193,7 +193,16 @@ input#search {
 }
 
 .button {
-
+	background-color: rgb(211, 207, 201);
+	border: 1px solid rgb(211, 207, 201);
+	border-radius: 4px;
+	font-size: 14px;
+	margin: 11px 4px;
+	padding: 0 16px;
+	line-height: 27px;
+	height: 36px;
+	text-align: center;
+	cursor: pointer;
 }
 
 .mid-spot-promo {
